@@ -23,3 +23,62 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.timer {
+  display: flex;
+  padding: 20px;
+  align-items: flex-start;
+  gap: 24px;
+  width: 346px;
+  
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  color: #2E2F42;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 1.6px;
+}
+
+.value {
+ text-align: center;
+ margin-bottom: 8px;
+ color: #2E2F42;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 1.6px;
+}
+
+.label {
+  font-size: 20px;
+  text-align: center;
+  color: #2E2F42;
+font-size: 16px;
+line-height: 24px;
+}
+
+input {
+  color: #2E2F42;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.64px;
+  margin: 8px;
+  width: 272px;
+  height: 40px;
+  border-radius: 4px;
+  background: #FFF;
+}
+
+button {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  padding: 8px 16px;
+}
